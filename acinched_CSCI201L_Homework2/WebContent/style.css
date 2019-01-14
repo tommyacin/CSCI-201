@@ -1,0 +1,236 @@
+@charset "ISO-8859-1";
+
+.header /* top black bar */
+{
+	background-color: #362f2d;
+	width: 100%;
+	position: fixed;
+	top:0;
+	right: 0;
+	height: 95px;
+}
+
+.footer /* bottom black bar */
+{
+	background-color: #362f2d;
+	width: 100%;
+	position: fixed;
+	bottom:0;
+	left: 0;
+	height: 95px;
+}
+
+.main /* middle row of each page */
+{
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.main.home /* middle row of home page */
+{
+	overflow-y: scroll;
+}
+
+.main h1 /* title text on profile and home pages */
+{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-family: American Typewriter;
+	float: left;
+	font-size: 2.7em;
+	padding-top: 22px;
+	padding-bottom: 13px;
+	padding-left: 55px;
+}
+
+#leaf /* image of leaf */
+{
+	height: 400px;
+	width: 420px;
+	float: right;
+}
+
+#leaf_col /* column with leaf */
+{
+	padding-top: 120px;
+}
+
+#title_col /* column with title and login */
+{
+	padding_top: 100px;
+}
+
+#login_content, #profile_content, #home_content, #success_content /* content of each page*/
+{
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+
+#home_page
+{
+	border: 2px solid;
+	margin-left: 20px;
+}
+
+#profile, #home /* columns with buttons to home and profile pages */
+{
+	background-color: #362f2d;
+	border: none;
+	color: white;
+	text-align: center;
+	font-family: American Typewriter;
+	font-size: 2.5em;
+	float: right;
+	padding-top: 22px;
+	padding-bottom: 13px;
+	padding-right: 70px;
+}
+
+#signed_in /* column with button to signed in page */
+{
+	background-color: #362f2d;
+	border: none;
+	color: white;
+	text-align: center;
+	font-family: American Typewriter;
+	font-size: 2.5em;
+	padding-top: 22px;
+	padding-bottom: 13px;
+	padding-left: 70px;
+}
+
+#sycamore_text /* title text */
+{
+	color: white;
+	font-weight: bold;
+	text-shadow: 3px 3px #ed8323;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 77px;
+	height: 50px;
+}
+
+.g-signin2 /* Google sign in/out button */
+{
+	padding-left: 350px;
+}
+
+figure /* image and name combo */
+{
+	text-align: center;
+}
+
+#user_name /* name on profile/home pages */
+{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-family: American Typewriter;
+	font-size: 2.7em;
+}
+
+#user_image /* image on profile/home pages */
+{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+.table /* table with user's upcoming events */
+{
+	border: 2px solid #ddd;
+	margin-left: 40px;
+	display: block;
+	max-height: 550px;
+	width: 77%;
+	overflow-y: auto;
+}
+
+th, td, tr /* table components */
+{
+	border-bottom: 2px solid black;
+}
+
+td:first-child
+{
+	width: 35%;
+}
+
+td:nth-child(2)
+{
+	width: 25%;
+}
+
+td:last-child
+{
+	width: 300px;
+}
+
+#eventForm /* form for creating events */
+{
+	background-color: #646464;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+/* #error_msg error message for form input
+{
+	color: red;
+	font-weight: bold;
+	font-family: American Typewriter;
+}
+ */
+#success_msg /* message confirming creation of event */
+{
+	padding-top: 100px;
+	padding-left: 100px;
+	color: green;
+	
+}
+
+#eventTitle /* event title input */
+{
+	width: 60%;
+	height: 30px;
+	margin-left: 50px;
+	border: 2px solid;
+	background-color: white;
+}
+
+#startDate, #startTime /* start date and start time inputs */
+{
+	width: 27%;
+	height: 30px;
+	margin-left: 50px;
+	border: 2px solid;
+	background-color: white;
+}
+
+#endDate, #endTime /* end date and end time inputs */
+{
+	width: 27%;
+	height: 30px;
+	margin-left: 70px;
+	border: 2px solid;
+	background-color: white;
+}
+
+input[type="date"]:before, input[type="time"]:before /* placeholder text */
+{
+	content: attr(placeholder) !important;
+	color: #aaa;
+	margin-right: 0.5em;	
+}
+
+/* placeholder text */
+input[type="date"]:focus:before, input[type="date"]:valid:before, input[type="time"]:focus:before, input[type="time"]:valid:before
+{
+	content: "";
+}
+
+#addEvent /* submit button */
+{
+	margin-left: 200px;
+	height: 50px;
+	width: 150px;
+}

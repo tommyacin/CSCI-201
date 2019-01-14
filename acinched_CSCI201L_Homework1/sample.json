@@ -1,0 +1,88 @@
+{
+  "Users": [
+    {
+      "Name": {
+        "Fname": "Clau",
+        "Lname": "Herrera"
+      },
+      "Events": [
+        {
+          "Title": "High Coding",
+          "Time": "12:35 AM",
+          "Date": {
+            "Month": "September",
+            "Day": 4,
+            "Year": 2018
+          }
+        },
+        {
+          "Title": "Tailgate",
+          "Time": "10:00 AM",
+          "Date": {
+            "Month": "November",
+            "Day": 1,
+            "Year": 2018
+          }
+        }
+      ]
+    },
+    {
+      "Name": {
+        "Fname": "Jeffrey",
+        "Lname": "Miller"
+      },
+      "Events": [
+        {
+          "Title": "Lecture",
+          "Time": "8:00 am",
+          "Date": {
+            "Month": "August",
+            "Day": 25,
+            "Year": 2018
+          }
+        }
+      ]
+    },
+    {
+      "Name": {
+        "Fname": "Brian",
+        "Lname": "Plotnik el Judio"
+      },
+      "Events": [
+        {
+          "Title": "Circumcision",
+          "Time": "12 pm",
+          "Date": {
+            "Month": "April",
+            "Day": 12,
+            "Year": 1999
+          }
+        }
+      ]
+    },
+    {
+      "Name": {
+        "Fname": "Tommy",
+        "Lname": "Trojan"
+      },
+      "Events": [
+        {
+          "Title": "Kristy's Birthday Party",
+          "Time": "2:00 pm",
+          "Date": {
+            "Month": "July",
+            "Day": 31,
+            "Year": 2018
+          }
+        }
+      ]
+    },
+    {
+      "Name": {
+        "Fname": "Anthony",
+        "Lname": "Momo"
+      },
+      "Events": []
+    }
+  ]
+}
